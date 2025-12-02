@@ -1,0 +1,10 @@
+,Model,Sampling Technique,Hyperparameters,Test_Score,Val_Score
+0,LogisticRegression,oversampling,"{'C': 100, 'max_iter': 100, 'penalty': 'l2', 'solver': 'liblinear'}",0.8659892041207524,0.12669683257918551
+1,RandomForest,oversampling,"{'max_depth': 50, 'min_samples_leaf': 2, 'min_samples_split': 5, 'n_estimators': 500}",0.972917829259161,0.02857142857142857
+2,LightGBM,oversampling,"{'learning_rate': 0.1, 'max_depth': 10, 'n_estimators': 200, 'num_leaves': 50}",0.9835435981159314,0.0
+3,LogisticRegression,undersampling,"{'C': 100, 'max_iter': 100, 'penalty': 'l2', 'solver': 'liblinear'}",0.5497479031447702,0.12442396313364056
+4,RandomForest,undersampling,"{'max_depth': 50, 'min_samples_leaf': 2, 'min_samples_split': 10, 'n_estimators': 200}",0.6754947743466059,0.23076923076923078
+5,LightGBM,undersampling,"{'learning_rate': 0.1, 'max_depth': 10, 'n_estimators': 500, 'num_leaves': 20}",0.6578754937257507,0.1981981981981982
+6,LogisticRegression,no_sampling,"{'C': 1, 'class_weight': 'balanced', 'max_iter': 500, 'penalty': 'l2', 'solver': 'saga'}",0.11148047687971552,0.14937759336099585
+7,RandomForest,no_sampling,"{'class_weight': 'balanced', 'max_depth': 5, 'min_samples_leaf': 6, 'min_samples_split': 10, 'n_estimators': 500}",0.10283151107373142,0.07547169811320754
+8,LightGBM,no_sampling,"{'learning_rate': 0.01, 'max_depth': 10, 'n_estimators': 200, 'num_leaves': 10, 'scale_pos_weight': 18}",0.19274880720219173,0.34285714285714286

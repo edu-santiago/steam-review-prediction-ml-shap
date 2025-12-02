@@ -1,0 +1,4 @@
+,Model,Sampling Technique,Hyperparameters,Test_Score,Val_Score
+0,LogisticRegression,oversampling,"{'C': 100, 'max_iter': 100, 'penalty': 'l2', 'solver': 'liblinear'}",0.8659892041207524,0.12669683257918551
+1,RandomForest,oversampling,"{'max_depth': 50, 'min_samples_leaf': 2, 'min_samples_split': 5, 'n_estimators': 500}",0.972917829259161,0.02857142857142857
+2,LightGBM,oversampling,"{'learning_rate': 0.1, 'max_depth': 10, 'n_estimators': 200, 'num_leaves': 50}",0.9835435981159314,0.0
