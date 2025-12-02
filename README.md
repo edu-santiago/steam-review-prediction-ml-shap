@@ -300,16 +300,6 @@ SHAP (SHapley Additive exPlanations) was used to:
 4. **Feature engineering**: More sophisticated tag interactions and feature combinations
 5. **Deep learning**: Explore neural network architectures for this task
 
-## References
-
-This project is based on research presented in:
-> **Feature Importance of Machine Learning Models Applied to Elden Ring Reviews and User Gaming History**
-> 
-> Eduardo N. S. Ramos  
-> Departamento de Engenharia Elétrica, PUC-RJ
-
-For the full academic paper, see `Template_SBC/template-latex/sbc-template.tex`
-
 ## Author
 
 **Eduardo N. S. Ramos**  
@@ -328,4 +318,5 @@ This project is for academic/research purposes.
 ---
 
 **Note**: This project demonstrates that while machine learning models may not achieve perfect classification for this task due to the severe class imbalance and low feature correlations, they provide valuable insights into gaming preferences and can serve as a baseline for identifying suitable gaming profiles. The SHAP analysis reveals meaningful patterns in user behavior that can inform marketing strategies and game development decisions.
+
 
